@@ -53,7 +53,7 @@ quick_sort(alist,0,len(alist))
 print('Sorted List\n',alist)
 ```
 ## Output:
-![Uploading AOA-1C.png…]()
+![AOA-1C](https://github.com/user-attachments/assets/71a0d146-1414-46fe-8ff1-ccbe77e956cd)
 
 
 
