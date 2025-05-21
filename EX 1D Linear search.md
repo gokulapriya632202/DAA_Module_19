@@ -1,27 +1,48 @@
 # EX 1D Linear search
-## DATE:
+## DATE: 07/05/2025
 ## AIM:
 To write a python program for a search function with parameter list name and the value to be searched using string values.
 
 
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Loop through each element in the tuple.
+2. Compare the current element with the target value x.
+3. If the element matches x, print that the element was found and stop the search.
+4. If no match is found after checking all elements, print that the element was not found.
+5. End the function. 
 
 ## Program:
 ```
 /*
 Program to implement a search function with parameter list name and the value to be searched using string values.
-Developed by: 
-Register Number:  
+Developed by: GOKULA PRIYA P
+Register Number:  212222040044
 */
 ```
 
+```
+def search(Tuple,x):
+    for i in range(len(Tuple)):
+        if(Tuple[i]==x):
+            return 1
+    return 0
+n=int(input())
+arr=[]
+for i in range(n):
+    arr.append(float(input()))
+Tuple=tuple(arr)
+x=float(input())
+result=search(Tuple,x)
+if(result==1):
+    print(x,"Found")
+else:
+    print(x, "Not Found")
+
+```
+
 ## Output:
+![AOA-1D](https://github.com/user-attachments/assets/c46aeb58-63df-46d8-8414-3fa3f30acb9c)
 
 
 
